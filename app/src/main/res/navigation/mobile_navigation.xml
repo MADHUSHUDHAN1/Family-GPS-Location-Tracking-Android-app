@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_location">
+
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.familygpstracker.ui.location.location_Fragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_location_" />
+    <fragment
+        android:id="@+id/nav_signOut"
+        android:name="com.example.familygpstracker.ui.signOut.SignOutFragment"
+        android:label="@string/log_out"
+        tools:layout="@layout/fragment_sign_out" />
+
+    <fragment
+        android:id="@+id/nav_joincircle"
+        android:name="com.example.familygpstracker.ui.JoinCircle.JoinCircle_Fragment"
+        android:label="@string/menu_JoinCircle"
+        tools:layout="@layout/fragment_join_circle_" />
+    <fragment
+        android:id="@+id/nav_mycircle"
+        android:name="com.example.familygpstracker.ui.myCircle.myCircle_Fragment"
+        android:label="@string/menu_MyCircle"
+        tools:layout="@layout/fragment_my_circle_" />
+    <fragment
+        android:id="@+id/nav_joinedCircle"
+        android:name="com.example.familygpstracker.ui.MessageCircle.Message_Fragment"
+        android:label="@string/menu_JoinedCircle"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/nav_invitemember"
+        android:name="com.example.familygpstracker.ui.inviteMember.InviteMember_Fragment"
+        android:label="@string/menu_inviteMember"
+        tools:layout="@layout/fragment_invite_member_" />
+    <fragment
+        android:id="@+id/nav_shareLocation"
+        android:name="com.example.familygpstracker.ui.shareLocation.shareLocation_Fragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share_location_" />
+</navigation>

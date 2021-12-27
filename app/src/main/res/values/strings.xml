@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Family GPS Tracker</string>
+    <string name="title_activity_my_navigation">MyNavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_map">Map</string>
+    <string name="log_out">Log Out</string>
+    <string name="menu_JoinCircle">Join Circle</string>
+    <string name="menu_MyCircle">My Circle</string>
+    <string name="menu_JoinedCircle">Message</string>
+    <string name="menu_share">Share Location</string>
+    <string name="menu_inviteMember">Invite Member</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Enetr circle code to join</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="MAPS_API_KEY">AIzaSyCa8hNs4quRj3OXG5XGX2qMZOAsu3qRaR0</string>
+</resources>
